@@ -1,5 +1,6 @@
 package com.company;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -18,6 +19,11 @@ public class Main {
         System.out.println("Enter a number");
         int number = scan.nextInt();
         obj2.even_or_odd(number);
+
+        Square obj3 = new Square();
+        System.out.println("Enter square number");
+        int snum = scan.nextInt();
+        obj3.draw_a_square(snum);
     }
 
 
