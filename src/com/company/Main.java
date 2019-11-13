@@ -29,6 +29,12 @@ public class Main {
         System.out.println("Enter triangle number");
         int tnum =  scan.nextInt();
         obj4.triangle(tnum);
+
+        IsoscelesTriangle obj5 = new IsoscelesTriangle();
+        System.out.println("Enter iso triangle number");
+        int iso_tnum = scan.nextInt();
+        obj5.iso_triangle(iso_tnum);
+
     }
 
 
