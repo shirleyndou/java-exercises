@@ -24,6 +24,11 @@ public class Main {
         System.out.println("Enter square number");
         int snum = scan.nextInt();
         obj3.draw_a_square(snum);
+
+        Triangle obj4 = new Triangle();
+        System.out.println("Enter triangle number");
+        int tnum =  scan.nextInt();
+        obj4.triangle(tnum);
     }
 
 
