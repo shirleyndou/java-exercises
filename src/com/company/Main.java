@@ -39,6 +39,8 @@ public class Main {
         String[] longest = {"the","quick","brown", "fox", "ate", "my", "chickens", "knuckles"};
         LongestString.longest_string(longest);
 
+        int arry[][] = {{11,22,33},{1,2,3}};
+        Combine_Arrays.combine(arry);
 
     }
 
