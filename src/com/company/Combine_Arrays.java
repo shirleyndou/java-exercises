@@ -10,7 +10,7 @@ public class Combine_Arrays {
             {
                 System.out.print(arry[i][j] + ",");
             }
-            //System.out.println();
+            //System.out.print();
         }
     }
 }
