@@ -35,6 +35,11 @@ public class Main {
         int iso_tnum = scan.nextInt();
         obj5.iso_triangle(iso_tnum);
 
+        //LongestString obj6 = new LongestString();
+        String[] longest = {"the","quick","brown", "fox", "ate", "my", "chickens", "knuckles"};
+        LongestString.longest_string(longest);
+
+
     }
 
 
