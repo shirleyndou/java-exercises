@@ -47,9 +47,12 @@ public class Main {
         //System.out.println(Arrays.toString(combine_arrays));
         Combine_Arrays.combine(first_array, second_array, combine_arrays);
 
+
+
+        String[] words = {"Write","good","code","every","day"};
        // System.out.println("Enter a couple of words");
         //String text = scan.nextLine();
-        //Framed_Text.frame(words);
+        Framed_Text.frame(words);
 
     }
 
