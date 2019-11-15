@@ -1,6 +1,7 @@
 package com.company;
 
 import java.sql.SQLOutput;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -39,8 +40,12 @@ public class Main {
         String[] longest = {"the","quick","brown", "fox", "ate", "my", "chickens", "knuckles"};
         LongestString.longest_string(longest);
 
-        int arry[][] = {{11,22,33},{1,2,3}};
-        Combine_Arrays.combine(arry);
+
+        int first_array[] = {11,22,33};
+        int second_array[] = {1,2,3};
+        int [] combine_arrays = new int[first_array.length + second_array.length];
+        //System.out.println(Arrays.toString(combine_arrays));
+        Combine_Arrays.combine(first_array, second_array, combine_arrays);
 
        // System.out.println("Enter a couple of words");
         //String text = scan.nextLine();
