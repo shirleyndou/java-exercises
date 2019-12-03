@@ -11,30 +11,30 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        hello obj = new hello();
+        hello hello_name = new hello();
         System.out.println("Enter your name: ");
         String name = scan.nextLine();
-        obj.hello(name);
+        hello_name.hello(name);
 
-        EvenOdd obj2 = new EvenOdd();
+        EvenOdd even_odd = new EvenOdd();
         System.out.println("Enter a number");
         int number = scan.nextInt();
-        obj2.even_or_odd(number);
+        even_odd.even_or_odd(number);
 
-        Square obj3 = new Square();
+        Square square = new Square();
         System.out.println("Enter square number");
         int snum = scan.nextInt();
-        obj3.draw_a_square(snum);
+        square.draw_a_square(snum);
 
-        Triangle obj4 = new Triangle();
+        Triangle triangle = new Triangle();
         System.out.println("Enter triangle number");
         int tnum =  scan.nextInt();
-        obj4.triangle(tnum);
+        triangle.triangle(tnum);
 
-        IsoscelesTriangle obj5 = new IsoscelesTriangle();
+        IsoscelesTriangle iso_trianle = new IsoscelesTriangle();
         System.out.println("Enter iso triangle number");
         int iso_tnum = scan.nextInt();
-        obj5.iso_triangle(iso_tnum);
+        iso_trianle.iso_triangle(iso_tnum);
 
         //LongestString obj6 = new LongestString();
         String[] longest = {"the","quick","brown", "fox", "ate", "my", "chickens", "knuckles"};
